@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 header {
     background-color: #FFD700;
@@ -42,34 +43,9 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-/*Sidebar*/
-.sidebar {
-    height: calc(100vh - 120px) ;
-    width: 200px;
-    background-color: #3a3939;
-    padding-top: 20px;
-    position: fixed;
-    top: 140px;
-}
-/*Quitar el display de body*/
-
-.sidebar a {
-    padding: 10px 15px;
-    text-decoration: none;
-    font-size: 18px;
-    color: white;
-    display: block;
-}
-
-
-.sidebar a:hover {
-    background-color: #0b0bb0;
-}
-
-/**/
 /* Estilos del contenido */
 .content {
-    margin-left: 220px;
+    margin-left: 20px;
     padding: 20px;
     display: grid;
 }
