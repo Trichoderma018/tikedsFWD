@@ -45,7 +45,6 @@ nav ul li a:hover {
 
 /* Estilos del contenido */
 .content {
-    margin-left: 20px;
     padding: 20px;
     display: grid;
 }
