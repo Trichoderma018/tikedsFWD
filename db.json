@@ -1,5 +1,12 @@
 {
-    "tickeds": [],
-    "users": [],
-    "history": []
+  "users": [
+    {
+      "id": "3ce1",
+      "pass": "131313",
+      "email": "juan13@gmail.com",
+      "username": "juan13"
+    }
+  ],
+  "tickeds": [],
+  "history": []
 }

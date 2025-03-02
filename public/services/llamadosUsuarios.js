@@ -23,23 +23,23 @@ export { getProducts };
 
 //////////LLAMADO POST//////////
 
-async function postProducts(nombreProducto, precio, stock) {
+async function postUser(pass, email, username) {
     try {
      
-        const productData = { 
-            nombreProducto,
-            precio,
-            stock
+        const usertData = { 
+            pass, 
+            email, 
+            username
         };
 
 
 
-        const response = await fetch("http://localhost:3000/products", {
+        const response = await fetch("http://localhost:3000/users", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify(productData)
+            body: JSON.stringify(usertData)
         });
 
      
@@ -52,7 +52,7 @@ async function postProducts(nombreProducto, precio, stock) {
     }
 }
 
-export{postProducts}
+export{postUser}
 
 //////////////LLAMADO UPDATE/////////////
 
