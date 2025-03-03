@@ -1,6 +1,6 @@
-async function getProducts() {
+async function getUser() {
     try {
-        const response = await fetch('http://localhost:3000/products', {
+        const response = await fetch('http://localhost:3000/users', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json'
@@ -11,15 +11,15 @@ async function getProducts() {
             throw new Error('Error fetching users');
         }
 
-        const products = await response.json();
-        return products;
+        const users = await response.json();
+        return users;
     } catch (error) {
         console.error('Error fetching users:', error);
         throw error;
     }
 }
 
-export { getProducts };
+export { getUser };
 
 //////////LLAMADO POST//////////
 
